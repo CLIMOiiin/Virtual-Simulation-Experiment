@@ -1,8 +1,8 @@
 <template>
     <el-container style="height:100%">
       <el-header>
-        <el-menu :default-active="activeIndex" class="el-menu-demo" background-color="#409EFF" text-color="#fff" mode="horizontal"
-                active-text-color="#fff" :router="true" :ellipsis="false" @select="handleSelect">
+        <el-menu class="el-menu-demo" background-color="#409EFF" text-color="#fff" mode="horizontal"
+                active-text-color="#fff" :router="true" :ellipsis="false">
             <el-menu-item style="font-size:large">虚拟仿真实验平台</el-menu-item>
             <div class="flex-grow" />
             <el-menu-item style="font-size:large">Hi, xxx</el-menu-item>
